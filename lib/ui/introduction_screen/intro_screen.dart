@@ -8,6 +8,8 @@ import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 class IntroScreen extends StatefulWidget {
   static const String routeName = 'intro_screen';
 
+  const IntroScreen({super.key});
+
   @override
   State<IntroScreen> createState() => _IntroScreenState();
 }
