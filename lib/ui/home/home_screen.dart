@@ -78,8 +78,14 @@ class _HomeScreenState extends State<HomeScreen> {
                       label: 'Time'),
                 ]
             ),
-            body: tabsList[selectedIndex],
-          ),
+        body: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Image.asset(AppAssets.logo),
+            Expanded(child: tabsList[selectedIndex]),
+          ],
+        ),
+      ),
 
         ]);
   }

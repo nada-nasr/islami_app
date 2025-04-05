@@ -12,4 +12,8 @@ class AppAssets {
   static const String timeBg = 'assets/images/time_bg.png';
 
   static const String logo = 'assets/images/Logo.png';
+  static const String searchIcon = 'assets/images/search_icon.png';
+  static const String mostRecently = 'assets/images/most_recently.png';
+  static const String suraNum = 'assets/images/Vector.png';
+  static const String suraDetailsBg = 'assets/images/details_bg.png';
 }
