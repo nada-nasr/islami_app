@@ -42,8 +42,6 @@ class _HadethItemState extends State<HadethItem> {
                 child: CircularProgressIndicator(color: AppColors.blackBgColor))
             : Container(
                 height: height * 0.56,
-
-                ///440
                 child: Column(
                   children: [
                     Container(

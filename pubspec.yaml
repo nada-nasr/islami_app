@@ -67,6 +67,10 @@ flutter:
     - assets/images/
     - assets/files/
     - assets/files/hadeeth/
+    - assets/images/Pause_icon.png
+    - assets/images/play_icon.png
+    - assets/images/Volume Cross.png
+    - assets/images/Volume High.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
