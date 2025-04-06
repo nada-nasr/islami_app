@@ -50,4 +50,10 @@ class AppStyles {
     fontSize: 14,
     color: AppColors.whiteColor,
   );
+  static TextStyle bold20Black = TextStyle(
+    fontFamily: 'Janna LT Bold',
+    fontWeight: FontWeight.bold,
+    fontSize: 20,
+    color: AppColors.blackColor,
+  );
 }

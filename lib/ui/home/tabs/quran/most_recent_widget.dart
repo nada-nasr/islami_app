@@ -6,6 +6,7 @@ import 'package:provider/provider.dart';
 import '../../../../utils/app_assets.dart';
 import '../../../../utils/app_colors.dart';
 import '../../../../utils/app_styles.dart';
+import 'details/sura_details_screen1.dart';
 
 class MostRecentWidget extends StatefulWidget {
   const MostRecentWidget({super.key});
@@ -49,35 +50,43 @@ class _MostRecentWidgetState extends State<MostRecentWidget> {
                 return SizedBox(width: width * 0.02);
               },
               itemBuilder: (context, index) {
-                return Container(
-                  decoration: BoxDecoration(
-                      color: AppColors.primaryColor,
-                      borderRadius: BorderRadius.circular(20)),
-                  child: Row(
-                    children: [
-                      Padding(
-                        padding: EdgeInsets.symmetric(
-                            vertical: height * 0.02, horizontal: width * 0.03),
-                        child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                  QuranResources.englishQuranList[
-                                      provider.mostRecentList[index]],
-                                  style: AppStyles.bold24Black),
-                              Text(
-                                  QuranResources.arabicQuranList[
-                                      provider.mostRecentList[index]],
-                                  style: AppStyles.bold24Black),
-                              Text(
-                                '${QuranResources.versesNumbersList[provider.mostRecentList[index]]} Verses',
-                                style: AppStyles.bold14Black,
-                              ),
-                            ]),
-                      ),
-                      Image.asset(AppAssets.mostRecently)
-                    ],
+                return InkWell(
+                  child: Container(
+                    decoration: BoxDecoration(
+                        color: AppColors.primaryColor,
+                        borderRadius: BorderRadius.circular(20)),
+                    child: Row(
+                      children: [
+                        Padding(
+                          padding: EdgeInsets.symmetric(
+                              vertical: height * 0.02,
+                              horizontal: width * 0.03),
+                          child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                    QuranResources.englishQuranList[
+                                        provider.mostRecentList[index]],
+                                    style: AppStyles.bold24Black),
+                                Text(
+                                    QuranResources.arabicQuranList[
+                                        provider.mostRecentList[index]],
+                                    style: AppStyles.bold24Black),
+                                Text(
+                                  '${QuranResources.versesNumbersList[provider.mostRecentList[index]]} Verses',
+                                  style: AppStyles.bold14Black,
+                                ),
+                              ]),
+                        ),
+                        Image.asset(AppAssets.mostRecently)
+                      ],
+                    ),
                   ),
+                  onTap: () {
+                    Navigator.of(context).pushNamed(
+                        SuraDetailsScreen1.routeName,
+                        arguments: provider.mostRecentList[index]);
+                  },
                 );
               },
               itemCount: provider.mostRecentList.length,
