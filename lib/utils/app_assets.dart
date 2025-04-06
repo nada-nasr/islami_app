@@ -17,4 +17,9 @@ class AppAssets {
   static const String suraNum = 'assets/images/Vector.png';
   static const String suraDetailsBg = 'assets/images/details_bg.png';
   static const String hadethContentBg = 'assets/images/hadeth_content_bg.png';
+  static const String radioContentBg = 'assets/images/radio_content_bg.png';
+  static const String playIcon = 'assets/images/play_icon.png';
+  static const String pauseIcon = 'assets/images/Pause_icon.png';
+  static const String volumeHigh = 'assets/images/Volume High.png';
+  static const String volumeCross = 'assets/images/Volume Cross.png';
 }
