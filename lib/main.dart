@@ -20,14 +20,12 @@ class MyApp extends StatelessWidget {
       title: 'Islami App',
       debugShowCheckedModeBanner: false,
       initialRoute: HomeScreen.routeName,
-
       ///SplashScreen.routeName,
       routes: {
         ///SplashScreen.routeName: (context) => SplashScreen(),
         ///IntroScreen.routeName: (context) => IntroScreen(),
         HomeScreen.routeName: (context) => HomeScreen(),
         SuraDetailsScreen1.routeName: (context) => SuraDetailsScreen1(),
-
         ///SuraDetailsScreen2.routeName: (context) => SuraDetailsScreen2(),
       },
       darkTheme: AppTheme.darkTheme,
