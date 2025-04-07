@@ -74,4 +74,16 @@ class AppStyles {
     fontSize: 16,
     color: AppColors.blackColor,
   );
+  static TextStyle bold20BlackAzkar1 = TextStyle(
+    fontFamily: 'Janna LT Bold',
+    fontWeight: FontWeight.bold,
+    fontSize: 20,
+    color: AppColors.blackAzkarColor1,
+  );
+  static TextStyle bold20BlackAzkar2 = TextStyle(
+    fontFamily: 'Janna LT Bold',
+    fontWeight: FontWeight.bold,
+    fontSize: 20,
+    color: AppColors.blackAzkarColor2,
+  );
 }
