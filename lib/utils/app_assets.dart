@@ -18,8 +18,12 @@ class AppAssets {
   static const String suraDetailsBg = 'assets/images/details_bg.png';
   static const String hadethContentBg = 'assets/images/hadeth_content_bg.png';
   static const String radioContentBg = 'assets/images/radio_content_bg.png';
+  static const String radioWave = 'assets/images/radio_wave.png';
   static const String playIcon = 'assets/images/play_icon.png';
   static const String pauseIcon = 'assets/images/Pause_icon.png';
   static const String volumeHigh = 'assets/images/Volume High.png';
   static const String volumeCross = 'assets/images/Volume Cross.png';
+  static const String sebha = 'assets/images/sebha_img.png';
+  static const String sebhaBody = 'assets/images/SebhaBody.png';
+  static const String sebhaHead = 'assets/images/SebhaHead.png';
 }
