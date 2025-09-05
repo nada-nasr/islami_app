@@ -37,7 +37,11 @@ dependencies:
   smooth_page_indicator: ^1.0.0
   shared_preferences: ^2.5.3
   provider: ^6.1.4
+  intl: ^0.20.2
   carousel_slider: ^5.0.0
+  flutter_bloc: ^9.1.1
+  dio: ^5.9.0
+  audioplayers: ^6.5.0
   #google_fonts: ^6.2.1
 
 dev_dependencies:
@@ -71,6 +75,7 @@ flutter:
     - assets/images/play_icon.png
     - assets/images/Volume Cross.png
     - assets/images/Volume High.png
+    - assets/azkar/azkar.json
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

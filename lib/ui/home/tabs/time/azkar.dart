@@ -1,0 +1,40 @@
+import 'package:flutter/material.dart';
+import '../../../../utils/app_colors.dart';
+import '../../../../utils/app_styles.dart';
+
+class Azkar extends StatelessWidget {
+  String azkarIcon;
+
+  String azkarName;
+
+  Azkar({
+    super.key,
+    required this.azkarIcon,
+    required this.azkarName,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final width = MediaQuery.of(context).size.width;
+    final height = MediaQuery.of(context).size.height;
+    return Container(
+      width: width * .45,
+      height: height * .3,
+      decoration: BoxDecoration(
+        color: Colors.transparent,
+        border: Border.all(
+          color: AppColors.goldColor,
+          width: 2,
+        ),
+        borderRadius: BorderRadius.circular(15),
+      ),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        children: [
+          Image.asset(azkarIcon),
+          Text(azkarName, style: AppStyles.bold20White),
+        ],
+      ),
+    );
+  }
+}

@@ -26,4 +26,9 @@ class AppAssets {
   static const String sebha = 'assets/images/sebha_img.png';
   static const String sebhaBody = 'assets/images/SebhaBody.png';
   static const String sebhaHead = 'assets/images/SebhaHead.png';
+
+  static String cornerrRi = 'assets/images/Cornerr2.png';
+  static String cornerrLeft = 'assets/images/Cornerr1.png';
+  static String morningAzkar = 'assets/images/morning_azkar_img.png';
+  static String eveningAzkar = 'assets/images/evening_azkar_img.png';
 }
