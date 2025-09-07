@@ -26,3 +26,4 @@ dependencies:
   flutter_bloc: ^9.1.1
   dio: ^5.9.0
   audioplayers: ^6.5.0
+
