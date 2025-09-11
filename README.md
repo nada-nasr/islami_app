@@ -2,13 +2,21 @@
 Islami App is a clean and modern Islamic application developed using Flutter & Dart, designed to offer users a comprehensive spiritual experience and provide them with Islamic content.It emphasizes performance, readability, and responsive UI/UX for both Android and iOS platforms.
 
 # 🌟Features
-The app includes core features such as Quran reader, prayer times, Azkar, and Hadith sections.
+- Interactive Onboarding.
+- Quran Reading to access all Surahs with easy navigation.
+- Most Recent Feature to continue quickly where you left off.
+- A digital Tasbih (Sebha) with a simple animation to make the experience more interactive.
+- Hadith section.
+- Stream Islamic Radio.
+- Fetch accurate Prayer Times and El-Azkar.
+- Personalized Preferences to save settings using shared_preferences.
+- State management to control app data and behavior smoothly.
 
 # 🛠Techniques Used
 - File Handling.
 - Localizations.
 - Version Control.
-- Git
+- Git.
 - GitHub.
 - State Management.
 - SharedPreferences.
@@ -27,6 +35,9 @@ dependencies:
   flutter_bloc: ^9.1.1
   dio: ^5.9.0
   audioplayers: ^6.5.0
- 
+
 ```
+
+# 🌐 Live Demo
+
 
