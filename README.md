@@ -16,6 +16,7 @@ The app includes core features such as Quran reader, prayer times, Azkar, and Ha
 
 # 🧩Packages Used
 The following key packages were utilized in the development of this application:
+```javascript
 dependencies:
   cupertino_icons: ^1.0.8
   smooth_page_indicator: ^1.0.0
@@ -26,4 +27,6 @@ dependencies:
   flutter_bloc: ^9.1.1
   dio: ^5.9.0
   audioplayers: ^6.5.0
+ 
+```
 
