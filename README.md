@@ -37,7 +37,3 @@ dependencies:
   audioplayers: ^6.5.0
 
 ```
-
-# 🌐 Live Demo
-
-
