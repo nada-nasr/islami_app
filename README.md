@@ -37,3 +37,6 @@ dependencies:
   audioplayers: ^6.5.0
 
 ```
+
+# 🌐Demo
+https://github.com/user-attachments/assets/6895f9a5-b387-4535-9e43-ebf2a5042168
