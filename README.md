@@ -1,4 +1,4 @@
-# 📿Islami_app
+# 📿Islami App
 Islami App is a clean and modern Islamic application developed using Flutter & Dart, designed to offer users a comprehensive spiritual experience and provide them with Islamic content.It emphasizes performance, readability, and responsive UI/UX for both Android and iOS platforms.
 
 # 🌟Features
