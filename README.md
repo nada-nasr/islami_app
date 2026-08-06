@@ -10,7 +10,7 @@ Islami App is a clean and modern Islamic application developed using Flutter & D
 - ### Hadith Tab
   - Browse multiple Hadiths using a slider
 - ### Tasbeeh Tab
-  - Sebha with a simple animation to make the experience more interactive
+  - <b>Sebha</b> with a simple animation to make the experience more interactive
   - Count each Zikr up to 33
   - Automatically moves to the next Zikr after 33 
 - ### Radio Tab
