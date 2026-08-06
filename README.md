@@ -17,7 +17,7 @@ Islami App is a clean and modern Islamic application developed using Flutter & D
   - List of audio players, each playing a different Islamic radio channel 
 - ### Time Tab
   - Fetch accurate Prayer Times and Daily Azkar
-- ### Clean and responsive UI
+- ### Clean & Responsive UI
 
 # 🛠Techniques Used
 - File Handling.
